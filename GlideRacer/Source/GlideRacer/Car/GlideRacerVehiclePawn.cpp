@@ -1,8 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "GlideRacerPawn.h"
-#include "GlideRacerWheelFront.h"
-#include "GlideRacerWheelRear.h"
+#include "GlideRacerVehiclePawn.h"
+#include "Car/GlideRacerWheelFront.h"
+#include "Car/GlideRacerWheelRear.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
@@ -15,7 +15,7 @@
 
 DEFINE_LOG_CATEGORY(LogTemplateVehicle);
 
-AGlideRacerPawn::AGlideRacerPawn()
+AGlideRacerVehiclePawn::AGlideRacerVehiclePawn()
 {
 	// construct the front camera boom
 	FrontSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Front Spring Arm"));
@@ -54,37 +54,37 @@ AGlideRacerPawn::AGlideRacerPawn()
 
 }
 
-void AGlideRacerPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
+void AGlideRacerVehiclePawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
 		// steering 
-		EnhancedInputComponent->BindAction(SteeringAction, ETriggerEvent::Triggered, this, &AGlideRacerPawn::Steering);
-		EnhancedInputComponent->BindAction(SteeringAction, ETriggerEvent::Completed, this, &AGlideRacerPawn::Steering);
+		EnhancedInputComponent->BindAction(SteeringAction, ETriggerEvent::Triggered, this, &AGlideRacerVehiclePawn::Steering);
+		EnhancedInputComponent->BindAction(SteeringAction, ETriggerEvent::Completed, this, &AGlideRacerVehiclePawn::Steering);
 
 		// throttle 
-		EnhancedInputComponent->BindAction(ThrottleAction, ETriggerEvent::Triggered, this, &AGlideRacerPawn::Throttle);
-		EnhancedInputComponent->BindAction(ThrottleAction, ETriggerEvent::Completed, this, &AGlideRacerPawn::Throttle);
+		EnhancedInputComponent->BindAction(ThrottleAction, ETriggerEvent::Triggered, this, &AGlideRacerVehiclePawn::Throttle);
+		EnhancedInputComponent->BindAction(ThrottleAction, ETriggerEvent::Completed, this, &AGlideRacerVehiclePawn::Throttle);
 
 		// break 
-		EnhancedInputComponent->BindAction(BrakeAction, ETriggerEvent::Triggered, this, &AGlideRacerPawn::Brake);
-		EnhancedInputComponent->BindAction(BrakeAction, ETriggerEvent::Started, this, &AGlideRacerPawn::StartBrake);
-		EnhancedInputComponent->BindAction(BrakeAction, ETriggerEvent::Completed, this, &AGlideRacerPawn::StopBrake);
+		EnhancedInputComponent->BindAction(BrakeAction, ETriggerEvent::Triggered, this, &AGlideRacerVehiclePawn::Brake);
+		EnhancedInputComponent->BindAction(BrakeAction, ETriggerEvent::Started, this, &AGlideRacerVehiclePawn::StartBrake);
+		EnhancedInputComponent->BindAction(BrakeAction, ETriggerEvent::Completed, this, &AGlideRacerVehiclePawn::StopBrake);
 
 		// handbrake 
-		EnhancedInputComponent->BindAction(HandbrakeAction, ETriggerEvent::Started, this, &AGlideRacerPawn::StartHandbrake);
-		EnhancedInputComponent->BindAction(HandbrakeAction, ETriggerEvent::Completed, this, &AGlideRacerPawn::StopHandbrake);
+		EnhancedInputComponent->BindAction(HandbrakeAction, ETriggerEvent::Started, this, &AGlideRacerVehiclePawn::StartHandbrake);
+		EnhancedInputComponent->BindAction(HandbrakeAction, ETriggerEvent::Completed, this, &AGlideRacerVehiclePawn::StopHandbrake);
 
 		// look around 
-		EnhancedInputComponent->BindAction(LookAroundAction, ETriggerEvent::Triggered, this, &AGlideRacerPawn::LookAround);
+		EnhancedInputComponent->BindAction(LookAroundAction, ETriggerEvent::Triggered, this, &AGlideRacerVehiclePawn::LookAround);
 
 		// toggle camera 
-		EnhancedInputComponent->BindAction(ToggleCameraAction, ETriggerEvent::Triggered, this, &AGlideRacerPawn::ToggleCamera);
+		EnhancedInputComponent->BindAction(ToggleCameraAction, ETriggerEvent::Triggered, this, &AGlideRacerVehiclePawn::ToggleCamera);
 
 		// reset the vehicle 
-		EnhancedInputComponent->BindAction(ResetVehicleAction, ETriggerEvent::Triggered, this, &AGlideRacerPawn::ResetVehicle);
+		EnhancedInputComponent->BindAction(ResetVehicleAction, ETriggerEvent::Triggered, this, &AGlideRacerVehiclePawn::ResetVehicle);
 	}
 	else
 	{
@@ -92,7 +92,7 @@ void AGlideRacerPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInp
 	}
 }
 
-void AGlideRacerPawn::Tick(float Delta)
+void AGlideRacerVehiclePawn::Tick(float Delta)
 {
 	Super::Tick(Delta);
 
@@ -107,7 +107,7 @@ void AGlideRacerPawn::Tick(float Delta)
 	BackSpringArm->SetRelativeRotation(FRotator(0.0f, CameraYaw, 0.0f));
 }
 
-void AGlideRacerPawn::Steering(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::Steering(const FInputActionValue& Value)
 {
 	// get the input magnitude for steering
 	float SteeringValue = Value.Get<float>();
@@ -116,7 +116,7 @@ void AGlideRacerPawn::Steering(const FInputActionValue& Value)
 	ChaosVehicleMovement->SetSteeringInput(SteeringValue);
 }
 
-void AGlideRacerPawn::Throttle(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::Throttle(const FInputActionValue& Value)
 {
 	// get the input magnitude for the throttle
 	float ThrottleValue = Value.Get<float>();
@@ -125,7 +125,7 @@ void AGlideRacerPawn::Throttle(const FInputActionValue& Value)
 	ChaosVehicleMovement->SetThrottleInput(ThrottleValue);
 }
 
-void AGlideRacerPawn::Brake(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::Brake(const FInputActionValue& Value)
 {
 	// get the input magnitude for the brakes
 	float BreakValue = Value.Get<float>();
@@ -134,13 +134,13 @@ void AGlideRacerPawn::Brake(const FInputActionValue& Value)
 	ChaosVehicleMovement->SetBrakeInput(BreakValue);
 }
 
-void AGlideRacerPawn::StartBrake(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::StartBrake(const FInputActionValue& Value)
 {
 	// call the Blueprint hook for the break lights
 	BrakeLights(true);
 }
 
-void AGlideRacerPawn::StopBrake(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::StopBrake(const FInputActionValue& Value)
 {
 	// call the Blueprint hook for the break lights
 	BrakeLights(false);
@@ -149,7 +149,7 @@ void AGlideRacerPawn::StopBrake(const FInputActionValue& Value)
 	ChaosVehicleMovement->SetBrakeInput(0.0f);
 }
 
-void AGlideRacerPawn::StartHandbrake(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::StartHandbrake(const FInputActionValue& Value)
 {
 	// add the input
 	ChaosVehicleMovement->SetHandbrakeInput(true);
@@ -158,7 +158,7 @@ void AGlideRacerPawn::StartHandbrake(const FInputActionValue& Value)
 	BrakeLights(true);
 }
 
-void AGlideRacerPawn::StopHandbrake(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::StopHandbrake(const FInputActionValue& Value)
 {
 	// add the input
 	ChaosVehicleMovement->SetHandbrakeInput(false);
@@ -167,7 +167,7 @@ void AGlideRacerPawn::StopHandbrake(const FInputActionValue& Value)
 	BrakeLights(false);
 }
 
-void AGlideRacerPawn::LookAround(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::LookAround(const FInputActionValue& Value)
 {
 	// get the flat angle value for the input 
 	float LookValue = Value.Get<float>();
@@ -176,7 +176,7 @@ void AGlideRacerPawn::LookAround(const FInputActionValue& Value)
 	BackSpringArm->AddLocalRotation(FRotator(0.0f, LookValue, 0.0f));
 }
 
-void AGlideRacerPawn::ToggleCamera(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::ToggleCamera(const FInputActionValue& Value)
 {
 	// toggle the active camera flag
 	bFrontCameraActive = !bFrontCameraActive;
@@ -185,7 +185,7 @@ void AGlideRacerPawn::ToggleCamera(const FInputActionValue& Value)
 	BackCamera->SetActive(!bFrontCameraActive);
 }
 
-void AGlideRacerPawn::ResetVehicle(const FInputActionValue& Value)
+void AGlideRacerVehiclePawn::ResetVehicle(const FInputActionValue& Value)
 {
 	// reset to a location slightly above our current one
 	FVector ResetLocation = GetActorLocation() + FVector(0.0f, 0.0f, 50.0f);

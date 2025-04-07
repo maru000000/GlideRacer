@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "WheeledVehiclePawn.h"
-#include "GlideRacerPawn.generated.h"
+#include "GlideRacerVehiclePawn.generated.h"
 
 class UCameraComponent;
 class USpringArmComponent;
@@ -22,7 +22,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogTemplateVehicle, Log, All);
  *  Specific vehicle configurations are handled in subclasses.
  */
 UCLASS(abstract)
-class AGlideRacerPawn : public AWheeledVehiclePawn
+class AGlideRacerVehiclePawn : public AWheeledVehiclePawn
 {
 	GENERATED_BODY()
 
@@ -79,7 +79,7 @@ protected:
 	bool bFrontCameraActive = false;
 
 public:
-	AGlideRacerPawn();
+	AGlideRacerVehiclePawn();
 
 	// Begin Pawn interface
 

@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GlideRacerPawn.h"
+#include "Car/GlideRacerVehiclePawn.h"
 #include "GlideRacerOffroadCar.generated.h"
 
 /**
  *  Offroad car wheeled vehicle implementation
  */
 UCLASS(abstract)
-class GLIDERACER_API AGlideRacerOffroadCar : public AGlideRacerPawn
+class GLIDERACER_API AGlideRacerOffroadCar : public AGlideRacerVehiclePawn
 {
 	GENERATED_BODY()
 	

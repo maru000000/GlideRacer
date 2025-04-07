@@ -72,3 +72,8 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# exclude some assets
+Content/__Other/*
+Content/VehicleTemplate/Blueprints/BasicCar/*
+
