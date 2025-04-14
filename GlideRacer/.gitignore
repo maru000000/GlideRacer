@@ -75,5 +75,9 @@ DerivedDataCache/*
 
 # exclude some assets
 Content/__Other/*
+Content/VehicleVarietyVol2
+Content/CitySampleBuildings/*
+Content/CitySampleCrowd/*
+Content/CitySampleVehicles/*
 Content/VehicleTemplate/Blueprints/BasicCar/*
 

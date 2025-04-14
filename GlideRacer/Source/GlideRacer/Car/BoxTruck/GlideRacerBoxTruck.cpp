@@ -1,16 +1,17 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "GlideRacerSportsCar.h"
-#include "GlideRacerSportsWheelFront.h"
-#include "GlideRacerSportsWheelRear.h"
+#include "Car/BoxTruck/GlideRacerBoxTruck.h"
+#include "GlideRacerBoxTruckWheelFront.h"
+#include "GlideRacerBoxTruckWheelRear.h"
 #include "ChaosWheeledVehicleMovementComponent.h"
 
-AGlideRacerSportsCar::AGlideRacerSportsCar()
+
+AGlideRacerBoxTruck::AGlideRacerBoxTruck()
 {
 	// Note: for faster iteration times, the vehicle setup can be tweaked in the Blueprint instead
 
-	// Set up the chassis
+// Set up the chassis
 	GetChaosVehicleMovement()->ChassisHeight = 144.0f;
 	GetChaosVehicleMovement()->DragCoefficient = 0.31f;
 
@@ -18,23 +19,21 @@ AGlideRacerSportsCar::AGlideRacerSportsCar()
 	GetChaosVehicleMovement()->bLegacyWheelFrictionPosition = true;
 	GetChaosVehicleMovement()->WheelSetups.SetNum(4);
 
-
-	GetChaosVehicleMovement()->WheelSetups[0].WheelClass = UGlideRacerSportsWheelFront::StaticClass();
-	GetChaosVehicleMovement()->WheelSetups[0].BoneName = FName("Phys_Wheel_FL");
+	GetChaosVehicleMovement()->WheelSetups[0].WheelClass = UGlideRacerBoxTruckWheelFront::StaticClass();
+	GetChaosVehicleMovement()->WheelSetups[0].BoneName = FName("Wheel_Front_Left");
 	GetChaosVehicleMovement()->WheelSetups[0].AdditionalOffset = FVector(0.0f, 0.0f, 0.0f);
 
-	GetChaosVehicleMovement()->WheelSetups[1].WheelClass = UGlideRacerSportsWheelFront::StaticClass();
-	GetChaosVehicleMovement()->WheelSetups[1].BoneName = FName("Phys_Wheel_FR");
+	GetChaosVehicleMovement()->WheelSetups[1].WheelClass = UGlideRacerBoxTruckWheelFront::StaticClass();
+	GetChaosVehicleMovement()->WheelSetups[1].BoneName = FName("Wheel_Front_Right");
 	GetChaosVehicleMovement()->WheelSetups[1].AdditionalOffset = FVector(0.0f, 0.0f, 0.0f);
 
-	GetChaosVehicleMovement()->WheelSetups[2].WheelClass = UGlideRacerSportsWheelRear::StaticClass();
-	GetChaosVehicleMovement()->WheelSetups[2].BoneName = FName("Phys_Wheel_BL");
+	GetChaosVehicleMovement()->WheelSetups[2].WheelClass = UGlideRacerBoxTruckWheelRear::StaticClass();
+	GetChaosVehicleMovement()->WheelSetups[2].BoneName = FName("Wheel_Rear_Left");
 	GetChaosVehicleMovement()->WheelSetups[2].AdditionalOffset = FVector(0.0f, 0.0f, 0.0f);
 
-	GetChaosVehicleMovement()->WheelSetups[3].WheelClass = UGlideRacerSportsWheelRear::StaticClass();
-	GetChaosVehicleMovement()->WheelSetups[3].BoneName = FName("Phys_Wheel_BR");
+	GetChaosVehicleMovement()->WheelSetups[3].WheelClass = UGlideRacerBoxTruckWheelRear::StaticClass();
+	GetChaosVehicleMovement()->WheelSetups[3].BoneName = FName("Wheel_Rear_Right");
 	GetChaosVehicleMovement()->WheelSetups[3].AdditionalOffset = FVector(0.0f, 0.0f, 0.0f);
-
 
 	// Set up the engine
 	// NOTE: Check the Blueprint asset for the Torque Curve
