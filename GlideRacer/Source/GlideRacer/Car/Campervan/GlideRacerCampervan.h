@@ -13,5 +13,7 @@ UCLASS()
 class GLIDERACER_API AGlideRacerCampervan : public AGlideRacerVehiclePawn
 {
 	GENERATED_BODY()
-	
+
+public:
+	AGlideRacerCampervan();
 };

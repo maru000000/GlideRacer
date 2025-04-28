@@ -13,5 +13,6 @@ UCLASS()
 class GLIDERACER_API UGlideRacerCampervanWheelFront : public UGlideRacerWheelFront
 {
 	GENERATED_BODY()
-	
+public:
+	UGlideRacerCampervanWheelFront();
 };

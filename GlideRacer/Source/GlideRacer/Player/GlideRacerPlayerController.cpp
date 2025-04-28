@@ -2,7 +2,7 @@
 
 
 #include "GlideRacerPlayerController.h"
-#include "GlideRacerVehiclePawn.h"
+#include "Car/GlideRacerVehiclePawn.h"
 #include "UI/GlideRacerUI.h"
 #include "EnhancedInputSubsystems.h"
 #include "ChaosWheeledVehicleMovementComponent.h"

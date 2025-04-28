@@ -52,6 +52,7 @@ AGlideRacerVehiclePawn::AGlideRacerVehiclePawn()
 	// get the Chaos Wheeled movement component
 	ChaosVehicleMovement = CastChecked<UChaosWheeledVehicleMovementComponent>(GetVehicleMovement());
 
+
 }
 
 void AGlideRacerVehiclePawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
