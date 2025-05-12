@@ -3,21 +3,25 @@
 
 #include "Player/GlideRacerPlayerState.h"
 
-AGlideRacerPlayerState::AGlideRacerPlayerState(const FObjectInitializer& ObjectInitializer)
+AGlideRacerPlayerState::AGlideRacerPlayerState(const FObjectInitializer& ObjectInitializer) :Super(ObjectInitializer)
 {
+	AbilitySystemComponent = CreateDefaultSubobject<UGlideRacerAbilitySystemComponent>("AbilitySystemComponent");
+	AbilitySystemComponent->SetIsReplicated(true); // 네트워크 공유 허용 
+
+	PlayerSet = CreateDefaultSubobject<UGlideRacerPlayerSet>("PlayerSet");
 }
 
 UAbilitySystemComponent* AGlideRacerPlayerState::GetAbilitySystemComponent() const
 {
-	return nullptr;
+	return AbilitySystemComponent;
 }
 
 UGlideRacerAbilitySystemComponent* AGlideRacerPlayerState::GetGlideRacerAbilitySystemComponent() const
 {
-	return nullptr;
+	return AbilitySystemComponent;
 }
 
 UGlideRacerAttributeSet* AGlideRacerPlayerState::GetGlideRacerPlayerSet() const
 {
-	return nullptr;
+	return PlayerSet;
 }

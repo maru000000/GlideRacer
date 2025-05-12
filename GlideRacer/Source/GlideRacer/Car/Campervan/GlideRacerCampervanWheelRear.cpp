@@ -5,11 +5,16 @@
 
 UGlideRacerCampervanWheelRear::UGlideRacerCampervanWheelRear()
 {
-	WheelRadius = 40.f;
-	WheelWidth = 40.0f;
-	FrictionForceMultiplier = 4.0f;
-	SlipThreshold = 100.0f;
-	SkidThreshold = 100.0f;
-	MaxSteerAngle = 0.0f;
-	MaxHandBrakeTorque = 6000.0f;
+	WheelRadius = 39.f;
+	WheelWidth = 41.0f;
+	WheelMass = 20.0f;
+
+	FrictionForceMultiplier = 2.0f;
+	SlipThreshold = 20.0f;
+	SkidThreshold = 20.0f;
+
+	MaxSteerAngle = 50.0f;
+
+	MaxBrakeTorque = 1500.0f;
+	MaxHandBrakeTorque = 3000.0f;
 }

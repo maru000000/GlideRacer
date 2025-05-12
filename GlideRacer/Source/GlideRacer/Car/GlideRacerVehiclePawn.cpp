@@ -186,6 +186,8 @@ void AGlideRacerVehiclePawn::ToggleCamera(const FInputActionValue& Value)
 	BackCamera->SetActive(!bFrontCameraActive);
 }
 
+
+// 해당 트리거는 게임 배포시 삭제 / 호수들에 빠졌을 때 등에 사용 
 void AGlideRacerVehiclePawn::ResetVehicle(const FInputActionValue& Value)
 {
 	// reset to a location slightly above our current one

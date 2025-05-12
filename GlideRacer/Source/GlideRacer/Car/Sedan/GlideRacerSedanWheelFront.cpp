@@ -5,10 +5,16 @@
 
 UGlideRacerSedanWheelFront::UGlideRacerSedanWheelFront()
 {
-	WheelRadius = 39.0f;
-	WheelWidth = 35.0f;
-	FrictionForceMultiplier = 3.0f;
+	WheelRadius = 31.f;
+	WheelWidth = 20.0f;
+	WheelMass = 20.0f;
 
-	MaxBrakeTorque = 4500.0f;
-	MaxHandBrakeTorque = 6000.0f;
+	FrictionForceMultiplier = 2.0f;
+	SlipThreshold = 20.0f;
+	SkidThreshold = 20.0f;
+
+	MaxSteerAngle = 50.0f;
+
+	MaxBrakeTorque = 1500.0f;
+	MaxHandBrakeTorque = 3000.0f;
 }

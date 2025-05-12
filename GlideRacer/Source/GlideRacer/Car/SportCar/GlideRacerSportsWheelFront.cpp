@@ -5,10 +5,10 @@
 
 UGlideRacerSportsWheelFront::UGlideRacerSportsWheelFront()
 {
-	WheelRadius = 39.0f;
-	WheelWidth = 35.0f;
-	FrictionForceMultiplier = 3.0f;
+	WheelRadius = 44.0f;
+	WheelWidth = 24.0f;
+	FrictionForceMultiplier = 2.0f;
 
-	MaxBrakeTorque = 4500.0f;
-	MaxHandBrakeTorque = 6000.0f;
+	MaxBrakeTorque = 1500.0f;
+	MaxHandBrakeTorque = 3000.0f;
 }

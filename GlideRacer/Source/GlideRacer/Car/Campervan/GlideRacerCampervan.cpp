@@ -11,8 +11,10 @@ AGlideRacerCampervan::AGlideRacerCampervan()
 	// Note: for faster iteration times, the vehicle setup can be tweaked in the Blueprint instead
 
 // Set up the chassis
-	GetChaosVehicleMovement()->ChassisHeight = 144.0f;
-	GetChaosVehicleMovement()->DragCoefficient = 0.31f;
+	GetChaosVehicleMovement()->Mass = 4500.0;
+	GetChaosVehicleMovement()->ChassisWidth = 180.0f;
+	GetChaosVehicleMovement()->ChassisHeight = 140.0f;
+	GetChaosVehicleMovement()->DragCoefficient = 0.3f;
 
 	// Set up the wheels
 	GetChaosVehicleMovement()->bLegacyWheelFrictionPosition = true;
@@ -36,31 +38,34 @@ AGlideRacerCampervan::AGlideRacerCampervan()
 
 	// Set up the engine
 	// NOTE: Check the Blueprint asset for the Torque Curve
-	GetChaosVehicleMovement()->EngineSetup.MaxTorque = 750.0f;
-	GetChaosVehicleMovement()->EngineSetup.MaxRPM = 7000.0f;
-	GetChaosVehicleMovement()->EngineSetup.EngineIdleRPM = 900.0f;
-	GetChaosVehicleMovement()->EngineSetup.EngineBrakeEffect = 0.2f;
+	GetChaosVehicleMovement()->EngineSetup.MaxTorque = 852.0f;
+	GetChaosVehicleMovement()->EngineSetup.MaxRPM = 5400.0f;
+	GetChaosVehicleMovement()->EngineSetup.EngineIdleRPM = 1200.0f;
+	GetChaosVehicleMovement()->EngineSetup.EngineBrakeEffect = 0.05f;
 	GetChaosVehicleMovement()->EngineSetup.EngineRevUpMOI = 5.0f;
 	GetChaosVehicleMovement()->EngineSetup.EngineRevDownRate = 600.0f;
 
 	// Set up the transmission
 	GetChaosVehicleMovement()->TransmissionSetup.bUseAutomaticGears = true;
 	GetChaosVehicleMovement()->TransmissionSetup.bUseAutoReverse = true;
-	GetChaosVehicleMovement()->TransmissionSetup.FinalRatio = 2.81f;
+	GetChaosVehicleMovement()->TransmissionSetup.FinalRatio = 3.08f;
 	GetChaosVehicleMovement()->TransmissionSetup.ChangeUpRPM = 6000.0f;
 	GetChaosVehicleMovement()->TransmissionSetup.ChangeDownRPM = 2000.0f;
 	GetChaosVehicleMovement()->TransmissionSetup.GearChangeTime = 0.2f;
 	GetChaosVehicleMovement()->TransmissionSetup.TransmissionEfficiency = 0.9f;
 
-	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios.SetNum(5);
-	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[0] = 4.25f;
-	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[1] = 2.52f;
-	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[2] = 1.66f;
-	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[3] = 1.22f;
-	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[4] = 1.0f;
+	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios.SetNum(8);
+	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[0] = 2.85f;
+	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[1] = 2.02f;
+	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[2] = 1.35f;
+	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[3] = 1.0f;
+	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[4] = 2.85f;
+	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[5] = 2.02f;
+	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[6] = 1.35f;
+	GetChaosVehicleMovement()->TransmissionSetup.ForwardGearRatios[7] = 1.0f;
 
 	GetChaosVehicleMovement()->TransmissionSetup.ReverseGearRatios.SetNum(1);
-	GetChaosVehicleMovement()->TransmissionSetup.ReverseGearRatios[0] = 4.04f;
+	GetChaosVehicleMovement()->TransmissionSetup.ReverseGearRatios[0] = 3.0f;
 
 	// Set up the steering
 	// NOTE: Check the Blueprint asset for the Steering Curve

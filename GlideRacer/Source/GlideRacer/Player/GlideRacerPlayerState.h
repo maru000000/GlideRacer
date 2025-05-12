@@ -6,7 +6,7 @@
 #include "GameFramework/PlayerState.h"
 #include "AbilitySystemInterface.h"
 #include "AbilitySystem/GlideRacerAbilitySystemComponent.h"
-#include "AbilitySystem/Attributes/GlideRacerAttributeSet.h"
+#include "AbilitySystem/Attributes/GlideRacerPlayerSet.h"
 #include "GlideRacerPlayerState.generated.h"
 
 /**
@@ -30,5 +30,5 @@ protected:
 	TObjectPtr<UGlideRacerAbilitySystemComponent> AbilitySystemComponent;
 
 	UPROPERTY()
-	TObjectPtr<UGlideRacerAttributeSet> PlayerSet;
+	TObjectPtr<UGlideRacerPlayerSet> PlayerSet;
 };
