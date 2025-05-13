@@ -2,8 +2,8 @@
 
 
 #include "GlideRacerPlayerController.h"
-#include "Car/GlideRacerVehiclePawn.h"
-#include "UI/GlideRacerUI.h"
+#include "GlideRacerPawn.h"
+#include "GlideRacerUI.h"
 #include "EnhancedInputSubsystems.h"
 #include "ChaosWheeledVehicleMovementComponent.h"
 
@@ -53,5 +53,5 @@ void AGlideRacerPlayerController::OnPossess(APawn* InPawn)
 	Super::OnPossess(InPawn);
 
 	// get a pointer to the controlled pawn
-	VehiclePawn = CastChecked<AGlideRacerVehiclePawn>(InPawn);
+	VehiclePawn = CastChecked<AGlideRacerPawn>(InPawn);
 }

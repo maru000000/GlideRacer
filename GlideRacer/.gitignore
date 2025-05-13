@@ -73,11 +73,57 @@ Plugins/**/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# exclude some assets
+
+# macOS 시스템 파일
+.DS_Store
+
+# Xcode 관련
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+
+# 컴파일된 오브젝트 및 바이너리 파일들
+*.o
+*.a
+*.dylib
+*.so
+*.out
+*.app
+
+# Unreal Engine 기본 무시 파일들
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# 플러그인 내부 바이너리와 인터미디엇
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# 맵 빌드 데이터
+*_BuiltData.uasset
+
+# 소스아트 무시
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# 특정 에셋 제외
+Content/CitySampleBuildings/*
+Content/LowPolyCity/*
+Content/Used/*
+Content/CitySampleBuildings
 Content/__Other/*
-Content/VehicleVarietyVol2
+Content/VehicleVarietyVol2/
 Content/CitySampleBuildings/*
 Content/CitySampleCrowd/*
 Content/CitySampleVehicles/*
 Content/VehicleTemplate/Blueprints/BasicCar/*
+# 에디터가 생성한 설정 파일 무시
+.vscode/
 
+# Pak 블랙리스트 파일만 허용
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico

@@ -10,10 +10,7 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-				"CoreUObject",
-				"AIModule",
-				"UMG",
-				"GameplayAbilities"
+				"UMG"
 			]
 		}
 	],
@@ -31,10 +28,6 @@
 		},
 		{
 			"Name": "RawInput",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayAbilities",
 			"Enabled": true
 		}
 	]

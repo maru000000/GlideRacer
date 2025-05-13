@@ -8,26 +8,8 @@ public class GlideRacer : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] {
-			"Core",
-			"CoreUObject",
-			"Engine",
-			"InputCore",
-			"EnhancedInput",
-			"ChaosVehicles",
-			"PhysicsCore" ,
-			"NavigationSystem" ,
-			"AIModule" ,
-			"Niagara" ,
-			"UMG"
-		});
+		PublicIncludePaths.Add("/Users/Shared/Epic Games/UE_5.5/Engine/Source/Runtime/Core/Public");
 
-        PrivateDependencyModuleNames.AddRange(new string[] {
-			"GameplayTags" ,
-			"GameplayTasks",
-			"GameplayAbilities"
-		});
-
-        PublicIncludePaths.AddRange(new string[] { "GlideRacer" });
-    }
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "ChaosVehicles", "PhysicsCore" });
+	}
 }
