@@ -7,7 +7,7 @@
 #include "GlideRacerPlayerController.generated.h"
 
 class UInputMappingContext;
-class AGlideRacerPawn;
+class AGlideRacerVehiclePawn;
 class UGlideRacerUI;
 
 /**
@@ -36,7 +36,7 @@ protected:
 	UInputMappingContext* SteeringWheelInputMappingContext;
 
 	/** Pointer to the controlled vehicle pawn */
-	TObjectPtr<AGlideRacerPawn> VehiclePawn;
+	TObjectPtr<AGlideRacerVehiclePawn> VehiclePawn;
 
 	/** Type of the UI to spawn */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = UI)

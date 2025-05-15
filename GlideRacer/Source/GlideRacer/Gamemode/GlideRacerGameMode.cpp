@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "GlideRacerGameMode.h"
-#include "GlideRacerPlayerController.h"
+#include "Player/GlideRacerPlayerController.h"
 
 AGlideRacerGameMode::AGlideRacerGameMode()
 {
