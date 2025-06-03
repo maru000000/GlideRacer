@@ -17,6 +17,8 @@ void AGlideRacerPlayerController::BeginPlay()
 	check(VehicleUI);
 
 	VehicleUI->AddToViewport();
+
+
 }
 
 void AGlideRacerPlayerController::SetupInputComponent()
