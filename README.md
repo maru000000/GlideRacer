@@ -25,8 +25,8 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 
 
 ### Chasing
-<img width="935" height="504" alt="스크린샷 2025-08-22 18 23 27" src="https://github.com/user-attachments/assets/258ad177-14c6-4cbb-bf8f-70fc80cd8155" />
-<img width="935" height="504" alt="스크린샷 2025-08-22 18 28 02" src="https://github.com/user-attachments/assets/3a7d60ea-c302-47cd-846e-081963cde006" />
+<img width="467" height="252" alt="스크린샷 2025-08-22 18 23 27" src="https://github.com/user-attachments/assets/258ad177-14c6-4cbb-bf8f-70fc80cd8155" />
+<img width="467" height="252" alt="스크린샷 2025-08-22 18 28 02" src="https://github.com/user-attachments/assets/3a7d60ea-c302-47cd-846e-081963cde006" />
 
 경찰차를 피해 오래도록 살아남는 것이 Chasing 모드의 목표다.
 게임 시작과 동시에 경찰차가 스폰된다.
