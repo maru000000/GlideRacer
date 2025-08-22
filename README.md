@@ -58,7 +58,7 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 
 
 ### Setting
-<img width="467" height="252" alt="스크린샷 2025-08-22 16 49 18" src="https://github.com/user-attachments/assets/b7c63be1-f57e-4d77-83cc-8d4f2db525de" />
+<img width="1466" height="663" alt="스크린샷 2025-08-22 18 55 39" src="https://github.com/user-attachments/assets/292f46b0-6f76-4993-8768-4cabb10cc51a" />
 
 총 6종류의 차량을 운전할 수 있다.
 
