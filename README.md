@@ -67,4 +67,5 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 ---
 
 ## by Team유연
-- 김영무, 최대현
+- 김영무
+- 최대현
