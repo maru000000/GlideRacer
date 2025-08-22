@@ -1,4 +1,4 @@
-<img width="857" height="861" alt="KakaoTalk_Photo_2025-08-22-18-00-42" src="https://github.com/user-attachments/assets/ec64d9fb-beda-41e1-815b-c0d948e45052" />
+<img width="400" height="400" alt="KakaoTalk_Photo_2025-08-22-18-00-42" src="https://github.com/user-attachments/assets/ec64d9fb-beda-41e1-815b-c0d948e45052" />
 
 # 🏎️💨 GLIDE RACER 🏁
 ## : 추격의 질주, 레이싱의 자유
