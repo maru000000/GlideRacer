@@ -12,11 +12,11 @@ void AGlideRacerPlayerController::BeginPlay()
 	Super::BeginPlay();
 	
 	// spawn the UI widget and add it to the viewport
-	VehicleUI = CreateWidget<UGlideRacerUI>(this, VehicleUIClass);
+	//VehicleUI = CreateWidget<UGlideRacerUI>(this, VehicleUIClass);
 
-	check(VehicleUI);
+	//check(VehicleUI);
 
-	VehicleUI->AddToViewport();
+	//VehicleUI->AddToViewport();
 
 
 }
