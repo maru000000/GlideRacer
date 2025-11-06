@@ -74,6 +74,7 @@ AGlideRacerSportsCar::AGlideRacerSportsCar()
 	GetChaosVehicleMovement()->SteeringSetup.AngleRatio = 0.7f;
 }
 
+
 void AGlideRacerSportsCar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
     Super::SetupPlayerInputComponent(PlayerInputComponent);
@@ -106,27 +107,28 @@ void AGlideRacerSportsCar::Tick(float DeltaTime)
 
 void AGlideRacerSportsCar::UpdateWheelFriction(bool bDrift)
 {
-    const float NormalFriction = 2.0f;
-    const float DriftFriction = 0.5f;
-    const float NormalSteer = 45.0f;
-    const float DriftSteer = 65.0f;
+	const float NormalFriction = 2.0f;
+	const float DriftFriction = 0.5f;
+	const float NormalSteer = 45.0f;
+	const float DriftSteer = 65.0f;
 
-    auto* MovementComponent = Cast<UChaosWheeledVehicleMovementComponent>(GetVehicleMovement());
+	auto* MovementComponent = Cast<UChaosWheeledVehicleMovementComponent>(GetVehicleMovement());
 
-    if (!MovementComponent) return;
+	if (!MovementComponent) return;
 
-    for (int32 i = 0; i < MovementComponent->Wheels.Num(); ++i)
-    {
-        auto* Wheel = Cast<UChaosVehicleWheel>(MovementComponent->Wheels[i]);
-        if (!Wheel) continue;
+	for (int32 i = 0; i < MovementComponent->Wheels.Num(); ++i)
+	{
+		auto* Wheel = Cast<UChaosVehicleWheel>(MovementComponent->Wheels[i]);
+		if (!Wheel) continue;
 
-        // 프론트 (0,1) vs 리어 (2,3) 바퀴 판단
-        if (i == 0 || i == 1) {
-            Wheel->FrictionForceMultiplier = bDrift ? 0.2f : 2.0f;
-            Wheel->MaxSteerAngle = bDrift ? 65.0f : 45.0f;
-        } else {
-            Wheel->FrictionForceMultiplier = bDrift ? 0.05f : 2.0f;
-        }
+		// 프론트 (0,1) vs 리어 (2,3) 바퀴 판단
+		if (i == 0 || i == 1) {
+			Wheel->FrictionForceMultiplier = bDrift ? 0.2f : 2.0f;
+			Wheel->MaxSteerAngle = bDrift ? 65.0f : 45.0f;
+		}
+		else {
+			Wheel->FrictionForceMultiplier = bDrift ? 0.05f : 2.0f;
+		}
 		UE_LOG(LogTemp, Warning, TEXT("Wheel[%d] Friction = %f"), i, Wheel->FrictionForceMultiplier);
-    }
+	}
 }

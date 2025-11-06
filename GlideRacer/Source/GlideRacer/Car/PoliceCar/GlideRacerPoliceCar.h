@@ -16,4 +16,14 @@ class GLIDERACER_API AGlideRacerPoliceCar : public AGlideRacerVehiclePawn
 	
 public: 
 	AGlideRacerPoliceCar();
+
+	void StartDrift();
+	void StopDrift();
+	void UpdateWheelFriction(bool bDrift);
+
+	virtual void Tick(float DeltaTime) override;
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Drift")
+	bool bIsDrifting = false;
 };

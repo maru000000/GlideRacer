@@ -187,7 +187,7 @@ void AGlideRacerVehiclePawn::ToggleCamera(const FInputActionValue& Value)
 }
 
 
-// ÇØ´ç Æ®¸®°Å´Â °ÔÀÓ ¹èÆ÷½Ã »èÁ¦ / È£¼öµé¿¡ ºüÁ³À» ¶§ µî¿¡ »ç¿ë 
+// ï¿½Ø´ï¿½ Æ®ï¿½ï¿½ï¿½Å´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ / È£ï¿½ï¿½ï¿½é¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½î¿¡ ï¿½ï¿½ï¿½ 
 void AGlideRacerVehiclePawn::ResetVehicle(const FInputActionValue& Value)
 {
 	// reset to a location slightly above our current one
@@ -206,5 +206,7 @@ void AGlideRacerVehiclePawn::ResetVehicle(const FInputActionValue& Value)
 
 	UE_LOG(LogTemplateVehicle, Error, TEXT("Reset Vehicle"));
 }
+
+
 
 #undef LOCTEXT_NAMESPACE
