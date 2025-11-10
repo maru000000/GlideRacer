@@ -8,11 +8,11 @@ UGlideRacerPoliceCarWheelRear::UGlideRacerPoliceCarWheelRear()
 	WheelWidth = 24.145f;
 	WheelMass = 20.0f;
 
-	FrictionForceMultiplier = 3.0f;
+	FrictionForceMultiplier = 1.0f;
 	SlipThreshold = 20.0f;
 	SkidThreshold = 20.0f;
 
-	MaxSteerAngle = 40.0f;
+	MaxSteerAngle = 0.0f;
 
 	MaxBrakeTorque = 1500.0f;
 	MaxHandBrakeTorque = 4000.0f;
