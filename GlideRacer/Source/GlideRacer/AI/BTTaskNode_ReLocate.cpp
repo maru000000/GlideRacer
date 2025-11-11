@@ -19,10 +19,11 @@ EBTNodeResult::Type UBTTaskNode_ReLocate::ExecuteTask(UBehaviorTreeComponent& Ow
     FVector TargetLocation = OwnerComp.GetBlackboardComponent()->GetValueAsVector(TEXT("TargetLocation"));
 	AGlideRacerVehiclePawn* Target = Cast<AGlideRacerVehiclePawn>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(TEXT("Target")));
 
-    float MinRadius = 2000.f;  
-    float MaxRadius = 4000.f; 
+    //float MinRadius = 2000.f;  
+    float MaxRadius = 1000.f; 
 
-    float Radius = FMath::RandRange(MinRadius, MaxRadius);
+
+    float Radius = FMath::RandRange(0.f, MaxRadius);
     float Angle = FMath::RandRange(0.f, 2 * PI);
 
     FVector SpawnOffset = FVector(FMath::Cos(Angle), FMath::Sin(Angle), 0.f) * Radius;
@@ -41,7 +42,7 @@ EBTNodeResult::Type UBTTaskNode_ReLocate::ExecuteTask(UBehaviorTreeComponent& Ow
 
     if (GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, Params))
     {
-        SpawnLocation = Hit.ImpactPoint + FVector(0.f, 0.f, 100.f);
+        SpawnLocation = Hit.ImpactPoint + FVector(0.f, 0.f, 100.f) + (Target->GetActorForwardVector() * -1500.f);
     }
 
 
