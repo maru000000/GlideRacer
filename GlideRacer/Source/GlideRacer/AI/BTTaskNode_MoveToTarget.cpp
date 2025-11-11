@@ -26,7 +26,7 @@ EBTNodeResult::Type UBTTaskNode_MoveToTarget::ExecuteTask(UBehaviorTreeComponent
     float Dot = FVector::DotProduct(Forward, Direction);
     float Cross = FVector::CrossProduct(Forward, Direction).Z;
 
-    ChaosVehicleMovement->SetThrottleInput(1.0f); // ¾ÕÀ¸·Î °è¼Ó ÀÌµ¿
+    ChaosVehicleMovement->SetThrottleInput(1.0f); // 
     ChaosVehicleMovement->SetSteeringInput(FMath::Clamp(Cross, -1.0f, 1.0f));
 
     float epsilon = 10.0f;
@@ -56,7 +56,7 @@ void UBTTaskNode_MoveToTarget::TickTask(UBehaviorTreeComponent& OwnerComp, uint8
     float Dot = FVector::DotProduct(Forward, Direction);
     float Cross = FVector::CrossProduct(Forward, Direction).Z;
 
-    ChaosVehicleMovement->SetThrottleInput(1.0f); // ¾ÕÀ¸·Î °è¼Ó ÀÌµ¿
+    ChaosVehicleMovement->SetThrottleInput(1.0f); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ìµï¿½
     ChaosVehicleMovement->SetSteeringInput(FMath::Clamp(Cross, -1.0f, 1.0f));
 
     float epsilon = 10.0f;
