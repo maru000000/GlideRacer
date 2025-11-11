@@ -17,10 +17,10 @@ EBTNodeResult::Type UBTTaskNode_ReLocate::ExecuteTask(UBehaviorTreeComponent& Ow
     UChaosVehicleMovementComponent* ChaosVehicleMovement = Vehicle->GetVehicleMovement();
 
     FVector TargetLocation = OwnerComp.GetBlackboardComponent()->GetValueAsVector(TEXT("TargetLocation"));
+	AGlideRacerVehiclePawn* Target = Cast<AGlideRacerVehiclePawn>(OwnerComp.GetBlackboardComponent()->GetValueAsObject(TEXT("Target")));
 
-
-    float MinRadius = 1500.f;  
-    float MaxRadius = 3000.f; 
+    float MinRadius = 2000.f;  
+    float MaxRadius = 4000.f; 
 
     float Radius = FMath::RandRange(MinRadius, MaxRadius);
     float Angle = FMath::RandRange(0.f, 2 * PI);
@@ -48,6 +48,7 @@ EBTNodeResult::Type UBTTaskNode_ReLocate::ExecuteTask(UBehaviorTreeComponent& Ow
 	if (FVector::Dist(Vehicle->GetActorLocation(), TargetLocation) >= 10000) {
         Vehicle->GetMesh()->SetSimulatePhysics(false);
         Vehicle->SetActorLocation(SpawnLocation);
+        Vehicle->SetActorRotation(Target->GetActorRotation());
         Vehicle->GetMesh()->SetSimulatePhysics(true);
 	}
  
