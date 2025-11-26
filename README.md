@@ -1,4 +1,4 @@
-<img width="400" height="400" alt="KakaoTalk_Photo_2025-08-22-18-00-42" src="https://github.com/user-attachments/assets/ec64d9fb-beda-41e1-815b-c0d948e45052" />
+<img width="234" height="152" alt="스크린샷 2025-11-26 15 48 27" src="https://github.com/user-attachments/assets/329497b0-ecc2-48d8-9a78-539c87d47a2e" /><img width="400" height="400" alt="KakaoTalk_Photo_2025-08-22-18-00-42" src="https://github.com/user-attachments/assets/ec64d9fb-beda-41e1-815b-c0d948e45052" />
 
 # 🏎️💨 GLIDE RACER 🏁
 
@@ -32,14 +32,32 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 
 
 ### Chasing
-<img width="467" height="252" alt="스크린샷 2025-08-22 18 23 27" src="https://github.com/user-attachments/assets/258ad177-14c6-4cbb-bf8f-70fc80cd8155" />
-<img width="467" height="252" alt="스크린샷 2025-08-22 18 28 02" src="https://github.com/user-attachments/assets/3a7d60ea-c302-47cd-846e-081963cde006" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/a39237d4-5123-45e4-b653-3abadbd01ccf" />
+
 
 경찰차를 피해 오래도록 살아남는 것이 Chasing 모드의 목표다.
 
 게임 시작과 동시에 경찰차가 스폰된다.
 
 시간이 지날수록 phase가 늘어나고 그에 맞게 추격하는 경찰차의 수가 증가한다.
+
+<img width="234" height="151" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/83e76807-b0c2-4022-a064-e7b2e7942a4d" />
+<img width="1302" height="845" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" />
+<img width="234" height="152" alt="스크린샷 2025-11-26 15 48 18" src="https://github.com/user-attachments/assets/4b125c70-bf7a-4081-8349-710ee361af4a" />
+
+플레이어의 목숨에 따라 다른 효과가 나타난다.
+
+<img width="234" height="152" alt="스크린샷 2025-11-26 15 48 27" src="https://github.com/user-attachments/assets/05ae7c49-a542-4bf1-90a0-dabe5939beaa" />
+
+맵에 랜덤으로 스폰되어 있는 목숨 아이템을 수집하면 잔여 목숨이 증가한다.
+
+<img width="234" height="152" alt="스크린샷 2025-11-26 15 48 41" src="https://github.com/user-attachments/assets/4db09c4d-9046-4535-8f9b-4df7f96828b8" />
+
+Shift 키를 사용해 드리프트를 할 수 있다.
+
+<img width="234" height="152" alt="스크린샷 2025-11-26 15 49 05" src="https://github.com/user-attachments/assets/1730d8c9-46c6-402d-9e23-718de570cb17" />
+
+목숨이 모두 소진되면 게임이 종료된다.
 
 
 ### Time Attack
