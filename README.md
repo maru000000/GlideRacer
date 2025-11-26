@@ -19,7 +19,7 @@
 
 ## 실행 화면 📸
 ### Main Menu
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 46 55" src="https://github.com/user-attachments/assets/57dc37cc-8013-4ed8-a81f-67b96a6a66fa" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 46 55" src="https://github.com/user-attachments/assets/57dc37cc-8013-4ed8-a81f-67b96a6a66fa" />
 
 
 게임 모드를 선택할 수 있다.
