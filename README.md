@@ -46,13 +46,13 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 
 시간이 지날수록 phase가 늘어나고 그에 맞게 추격하는 경찰차의 수가 증가한다.
 
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/83e76807-b0c2-4022-a064-e7b2e7942a4d" />
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" />
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 48 18" src="https://github.com/user-attachments/assets/4b125c70-bf7a-4081-8349-710ee361af4a" />
+<img width="300" height="194" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/83e76807-b0c2-4022-a064-e7b2e7942a4d" />
+<img width="300" height="194" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" />
+<img width="300" height="194" alt="스크린샷 2025-11-26 15 48 18" src="https://github.com/user-attachments/assets/4b125c70-bf7a-4081-8349-710ee361af4a" />
 <br />
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/fa83e321-82d2-4145-9ad0-a618e309be3c" />
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 49 47" src="https://github.com/user-attachments/assets/7dd0312b-80ea-428e-85b0-9e85dc96b1dd" />
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 50 23" src="https://github.com/user-attachments/assets/db3f2ae5-5bca-48cc-a126-14d9c563729b" />
+<img width="300" height="194" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/fa83e321-82d2-4145-9ad0-a618e309be3c" />
+<img width="300" height="194" alt="스크린샷 2025-11-26 15 49 47" src="https://github.com/user-attachments/assets/7dd0312b-80ea-428e-85b0-9e85dc96b1dd" />
+<img width="300" height="194" alt="스크린샷 2025-11-26 15 50 23" src="https://github.com/user-attachments/assets/db3f2ae5-5bca-48cc-a126-14d9c563729b" />
 
 플레이어의 목숨에 따라 다른 효과가 나타난다.
 
@@ -87,7 +87,7 @@ Shift 키를 사용해 드리프트를 할 수 있다.
 
 ### Training
 
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 52 40" src="https://github.com/user-attachments/assets/0ddce695-43b9-4819-9cfb-674dda1efab8" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 52 40" src="https://github.com/user-attachments/assets/0ddce695-43b9-4819-9cfb-674dda1efab8" />
 
 차량의 운전을 연습할 수 있다.
 
@@ -103,9 +103,9 @@ Spawn 버튼을 활용해 적을 소환하고
 
 Despawn 버튼을 활용해 적을 삭제한다.
 
-<img width="234" height="151" alt="스크린샷 2025-11-26 16 05 02" src="https://github.com/user-attachments/assets/750c9637-5b3f-44bb-babd-c8a9263c9de6" />
-<img width="234" height="151" alt="스크린샷 2025-11-26 16 05 12" src="https://github.com/user-attachments/assets/b1261667-94a9-4f50-b9ca-0b5a96153890" />
-<img width="234" height="152" alt="스크린샷 2025-11-26 16 05 28" src="https://github.com/user-attachments/assets/4ecd993c-2a76-429a-9848-097d6800f672" />
+<img width="300" height="194" alt="스크린샷 2025-11-26 16 05 02" src="https://github.com/user-attachments/assets/750c9637-5b3f-44bb-babd-c8a9263c9de6" />
+<img width="300" height="194" alt="스크린샷 2025-11-26 16 05 12" src="https://github.com/user-attachments/assets/b1261667-94a9-4f50-b9ca-0b5a96153890" />
+<img width="300" height="194" alt="스크린샷 2025-11-26 16 05 28" src="https://github.com/user-attachments/assets/4ecd993c-2a76-429a-9848-097d6800f672" />
 
 Chasing을 연습할 수 있다.
 
