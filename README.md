@@ -33,6 +33,7 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 
 ### Chasing
 <img width="467" height="302" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/a39237d4-5123-45e4-b653-3abadbd01ccf" />
+<img width="234" height="151" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/4bfcf82c-f4a4-4aac-8835-bd768be837cf" />
 
 
 경찰차를 피해 오래도록 살아남는 것이 Chasing 모드의 목표다.
@@ -45,7 +46,9 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 <img width="200" height="129" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" />
 <img width="200" height="129" alt="스크린샷 2025-11-26 15 48 18" src="https://github.com/user-attachments/assets/4b125c70-bf7a-4081-8349-710ee361af4a" />
 
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 49 47" src="https://github.com/user-attachments/assets/7dd0312b-80ea-428e-85b0-9e85dc96b1dd" />
+<img width="200" height="129" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/fa83e321-82d2-4145-9ad0-a618e309be3c" />
+<img width="200" height="129" alt="스크린샷 2025-11-26 15 49 47" src="https://github.com/user-attachments/assets/7dd0312b-80ea-428e-85b0-9e85dc96b1dd" />
+<img width="200" height="129" alt="스크린샷 2025-11-26 15 50 23" src="https://github.com/user-attachments/assets/db3f2ae5-5bca-48cc-a126-14d9c563729b" />
 
 플레이어의 목숨에 따라 다른 효과가 나타난다.
 
