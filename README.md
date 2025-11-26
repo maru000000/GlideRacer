@@ -18,6 +18,10 @@
 
 
 ## 실행 화면 📸
+### Start
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 46 18" src="https://github.com/user-attachments/assets/659870fa-3147-4a52-9698-950c93955e5c" />
+
+
 ### Main Menu
 <img width="467" height="302" alt="스크린샷 2025-11-26 15 46 55" src="https://github.com/user-attachments/assets/57dc37cc-8013-4ed8-a81f-67b96a6a66fa" />
 
