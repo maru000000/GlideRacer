@@ -31,13 +31,13 @@
 Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하면 해당 화면으로 전환된다.
 
 ### Setting
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 49 22" src="https://github.com/user-attachments/assets/b899647b-ded8-42a9-b80d-85ccdc402818" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 49 22" src="https://github.com/user-attachments/assets/b899647b-ded8-42a9-b80d-85ccdc402818" />
 
 차량을 변경할 수 있다.
 
 ### Chasing
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/a39237d4-5123-45e4-b653-3abadbd01ccf" />
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/4bfcf82c-f4a4-4aac-8835-bd768be837cf" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/a39237d4-5123-45e4-b653-3abadbd01ccf" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/4bfcf82c-f4a4-4aac-8835-bd768be837cf" />
 
 
 경찰차를 피해 오래도록 살아남는 것이 Chasing 모드의 목표다.
@@ -56,18 +56,18 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 
 플레이어의 목숨에 따라 다른 효과가 나타난다.
 
-<img width="234" height="152" alt="스크린샷 2025-11-26 15 48 27" src="https://github.com/user-attachments/assets/05ae7c49-a542-4bf1-90a0-dabe5939beaa" />
-<img width="234" height="152" alt="스크린샷 2025-11-26 15 54 05" src="https://github.com/user-attachments/assets/db234ab2-f7fb-4df4-bcc2-bd9b4220048c" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 48 27" src="https://github.com/user-attachments/assets/05ae7c49-a542-4bf1-90a0-dabe5939beaa" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 54 05" src="https://github.com/user-attachments/assets/db234ab2-f7fb-4df4-bcc2-bd9b4220048c" />
 
 맵에 랜덤으로 스폰되어 있는 목숨 아이템을 수집하면 잔여 목숨이 증가한다.
 
-<img width="234" height="152" alt="스크린샷 2025-11-26 15 48 41" src="https://github.com/user-attachments/assets/4db09c4d-9046-4535-8f9b-4df7f96828b8" />
-<img width="234" height="153" alt="스크린샷 2025-11-26 15 50 52" src="https://github.com/user-attachments/assets/08b8596d-125f-44f7-abfd-85093ea7a20a" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 48 41" src="https://github.com/user-attachments/assets/4db09c4d-9046-4535-8f9b-4df7f96828b8" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 50 52" src="https://github.com/user-attachments/assets/08b8596d-125f-44f7-abfd-85093ea7a20a" />
 
 Shift 키를 사용해 드리프트를 할 수 있다.
 
-<img width="234" height="152" alt="스크린샷 2025-11-26 15 49 05" src="https://github.com/user-attachments/assets/1730d8c9-46c6-402d-9e23-718de570cb17" />
-<img width="234" height="152" alt="스크린샷 2025-11-26 15 51 08" src="https://github.com/user-attachments/assets/b472809e-9eaf-40de-8fc3-f174ec12d93d" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 49 05" src="https://github.com/user-attachments/assets/1730d8c9-46c6-402d-9e23-718de570cb17" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 51 08" src="https://github.com/user-attachments/assets/b472809e-9eaf-40de-8fc3-f174ec12d93d" />
 
 목숨이 모두 소진되면 게임이 종료된다.
 
