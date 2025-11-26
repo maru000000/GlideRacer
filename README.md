@@ -12,6 +12,9 @@
 
 상황에 따른 배경음악을 추가해 박진감이 넘치는 분위기를 조성했다.
 
+### 시연 영상 링크
+https://youtu.be/lpMD4BoxaoY
+
 ## 게임 모드 🕹️
 - Car Chasing
 - Time Attack
@@ -115,6 +118,3 @@ Chasing을 연습할 수 있다.
 ## by Team유연
 - 김영무
 - 최대현
-
-### 시연 영상 링크
-https://youtu.be/lpMD4BoxaoY
