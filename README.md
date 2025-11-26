@@ -45,6 +45,8 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 <img width="200" height="129" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" />
 <img width="200" height="129" alt="스크린샷 2025-11-26 15 48 18" src="https://github.com/user-attachments/assets/4b125c70-bf7a-4081-8349-710ee361af4a" />
 
+<img width="234" height="151" alt="스크린샷 2025-11-26 15 49 47" src="https://github.com/user-attachments/assets/7dd0312b-80ea-428e-85b0-9e85dc96b1dd" />
+
 플레이어의 목숨에 따라 다른 효과가 나타난다.
 
 <img width="234" height="152" alt="스크린샷 2025-11-26 15 48 27" src="https://github.com/user-attachments/assets/05ae7c49-a542-4bf1-90a0-dabe5939beaa" />
