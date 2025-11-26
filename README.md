@@ -41,8 +41,8 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 
 시간이 지날수록 phase가 늘어나고 그에 맞게 추격하는 경찰차의 수가 증가한다.
 
-<img width="234" height="151" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/83e76807-b0c2-4022-a064-e7b2e7942a4d" />
-<img width="1302" height="845" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" />
+<img width="234" height="151" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/83e76807-b0c2-4022-a064-e7b2e7942a4d" /> | 
+<img width="234" height="151" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" /> | 
 <img width="234" height="152" alt="스크린샷 2025-11-26 15 48 18" src="https://github.com/user-attachments/assets/4b125c70-bf7a-4081-8349-710ee361af4a" />
 
 플레이어의 목숨에 따라 다른 효과가 나타난다.
