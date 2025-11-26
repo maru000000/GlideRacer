@@ -73,31 +73,41 @@ Shift 키를 사용해 드리프트를 할 수 있다.
 
 
 ### Time Attack
-<img width="467" height="252" alt="스크린샷 2025-08-22 16 43 31" src="https://github.com/user-attachments/assets/a5500c62-9cf4-42b4-a471-93bbcab8b4c6" />
-<img width="467" height="252" alt="스크린샷 2025-08-22 16 44 02" src="https://github.com/user-attachments/assets/3bd3fbc1-e96f-4314-89fd-8f4c6c2d3d62" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 51 31" src="https://github.com/user-attachments/assets/17682b35-fd5d-452b-96af-08c234afa478" />
 
 게임 시작과 동시에 5초의 카운트 다운이 시작된다.
 
 시간이 흐르고 빠르게 도는 것이 Time Attack 모드의 목표다.
 
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 52 12" src="https://github.com/user-attachments/assets/e8fdb406-3576-4a62-a3c4-e6a9bda6d185" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 15 52 24" src="https://github.com/user-attachments/assets/10af6d74-bb45-4b0e-bea2-06886eb622ea" />
+
 맵 별로 정해진 Lap을 모두 돌면 시간이 멈춘다.
 
 
 ### Training
-<img width="467" height="252" alt="스크린샷 2025-08-22 16 48 27" src="https://github.com/user-attachments/assets/73551ea8-9e56-4aae-a8e5-93ed3197cad2" />
-<img width="467" height="252" alt="스크린샷 2025-08-22 16 49 00" src="https://github.com/user-attachments/assets/bb41ae6e-aa10-4f87-9c80-23a9ad27b975" />
+
+<img width="234" height="151" alt="스크린샷 2025-11-26 15 52 40" src="https://github.com/user-attachments/assets/0ddce695-43b9-4819-9cfb-674dda1efab8" />
 
 차량의 운전을 연습할 수 있다.
 
 다양한 모양의 점프대를 활용해 여러가지 스턴트를 시험해 볼 수 있다.
 
+<img width="467" height="302" alt="스크린샷 2025-11-26 16 03 50" src="https://github.com/user-attachments/assets/6af04295-cb32-423f-9aef-e758797518a4" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 16 03 59" src="https://github.com/user-attachments/assets/08cc3bd6-7cc3-4e31-a00a-f3f48c939070" />
 
-### Setting
-<img width="1466" height="663" alt="스크린샷 2025-08-22 18 55 39" src="https://github.com/user-attachments/assets/292f46b0-6f76-4993-8768-4cabb10cc51a" />
+Spawn 버튼을 활용해 적을 소환하고
 
-총 6종류의 차량을 운전할 수 있다.
+<img width="467" height="302" alt="스크린샷 2025-11-26 16 04 15" src="https://github.com/user-attachments/assets/632c56e5-7283-4d67-ac72-0c1142502995" />
+<img width="467" height="302" alt="스크린샷 2025-11-26 16 04 31" src="https://github.com/user-attachments/assets/73a882c7-4895-4e9d-9b50-36ef995930f6" />
 
-클릭한 차량으로 변환되며 플레이 할 때 바로 적용된다.
+Despawn 버튼을 활용해 적을 삭제한다.
+
+<img width="234" height="151" alt="스크린샷 2025-11-26 16 05 02" src="https://github.com/user-attachments/assets/750c9637-5b3f-44bb-babd-c8a9263c9de6" />
+<img width="234" height="151" alt="스크린샷 2025-11-26 16 05 12" src="https://github.com/user-attachments/assets/b1261667-94a9-4f50-b9ca-0b5a96153890" />
+<img width="234" height="152" alt="스크린샷 2025-11-26 16 05 28" src="https://github.com/user-attachments/assets/4ecd993c-2a76-429a-9848-097d6800f672" />
+
+Chasing을 연습할 수 있다.
 
 ---
 
