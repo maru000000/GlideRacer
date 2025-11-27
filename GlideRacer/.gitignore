@@ -127,3 +127,7 @@ Content/VehicleTemplate/Blueprints/BasicCar/*
 Build/*/**
 !Build/*/PakBlacklist*.txt
 !Build/**/*.ico
+
+# Windows/Max Packaging Folder
+Windows/*
+Mac/*

@@ -43,6 +43,7 @@ protected:
 	TSubclassOf<UGlideRacerUI> VehicleUIClass;
 
 	/** Pointer to the UI widget */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = UI)
 	TObjectPtr<UGlideRacerUI> VehicleUI;
 
 	

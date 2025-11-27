@@ -73,3 +73,62 @@ AGlideRacerSportsCar::AGlideRacerSportsCar()
 	GetChaosVehicleMovement()->SteeringSetup.SteeringType = ESteeringType::AngleRatio;
 	GetChaosVehicleMovement()->SteeringSetup.AngleRatio = 0.7f;
 }
+
+
+void AGlideRacerSportsCar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+    Super::SetupPlayerInputComponent(PlayerInputComponent);
+    PlayerInputComponent->BindAction("Drift", IE_Pressed, this, &AGlideRacerSportsCar::StartDrift);
+    PlayerInputComponent->BindAction("Drift", IE_Released, this, &AGlideRacerSportsCar::StopDrift);
+}
+
+void AGlideRacerSportsCar::StartDrift()
+{
+	UE_LOG(LogTemp, Warning, TEXT("🚗 Start Drift!"));
+    UpdateWheelFriction(true);
+}
+
+void AGlideRacerSportsCar::StopDrift()
+{
+	UE_LOG(LogTemp, Warning, TEXT("🛑 Stop Drift!"));
+    UpdateWheelFriction(false);
+}
+
+void AGlideRacerSportsCar::Tick(float DeltaTime)
+{
+    Super::Tick(DeltaTime);
+
+    if (bIsDrifting)
+    {
+        FVector Torque = FVector(0.f, 0.f, 1000000.f); // Z축으로 회전
+        GetMesh()->AddTorqueInRadians(Torque, NAME_None, true);
+    }
+}
+
+void AGlideRacerSportsCar::UpdateWheelFriction(bool bDrift)
+{
+	const float NormalFriction = 2.0f;
+	const float DriftFriction = 0.5f;
+	const float NormalSteer = 45.0f;
+	const float DriftSteer = 65.0f;
+
+	auto* MovementComponent = Cast<UChaosWheeledVehicleMovementComponent>(GetVehicleMovement());
+
+	if (!MovementComponent) return;
+
+	for (int32 i = 0; i < MovementComponent->Wheels.Num(); ++i)
+	{
+		auto* Wheel = Cast<UChaosVehicleWheel>(MovementComponent->Wheels[i]);
+		if (!Wheel) continue;
+
+		// 프론트 (0,1) vs 리어 (2,3) 바퀴 판단
+		if (i == 0 || i == 1) {
+			Wheel->FrictionForceMultiplier = bDrift ? 0.2f : 2.0f;
+			Wheel->MaxSteerAngle = bDrift ? 65.0f : 45.0f;
+		}
+		else {
+			Wheel->FrictionForceMultiplier = bDrift ? 0.05f : 2.0f;
+		}
+		UE_LOG(LogTemp, Warning, TEXT("Wheel[%d] Friction = %f"), i, Wheel->FrictionForceMultiplier);
+	}
+}

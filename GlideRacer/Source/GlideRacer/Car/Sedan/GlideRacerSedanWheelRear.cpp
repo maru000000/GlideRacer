@@ -1,6 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "Car/Sedan/GlideRacerSedanWheelRear.h"
 
 UGlideRacerSedanWheelRear::UGlideRacerSedanWheelRear()
@@ -9,7 +8,7 @@ UGlideRacerSedanWheelRear::UGlideRacerSedanWheelRear()
 	WheelWidth = 20.0f;
 	WheelMass = 20.0f;
 
-	FrictionForceMultiplier = 2.0f;
+	FrictionForceMultiplier = 3.0f;
 	SlipThreshold = 20.0f;
 	SkidThreshold = 20.0f;
 
