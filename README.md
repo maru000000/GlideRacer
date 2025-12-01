@@ -60,18 +60,18 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 
 플레이어의 목숨에 따라 다른 효과가 나타난다.
 
-<img width="430" height="275" alt="스크린샷 2025-11-26 15 48 27" src="https://github.com/user-attachments/assets/05ae7c49-a542-4bf1-90a0-dabe5939beaa" />
-<img width="430" height="275" alt="스크린샷 2025-11-26 15 54 05" src="https://github.com/user-attachments/assets/db234ab2-f7fb-4df4-bcc2-bd9b4220048c" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 15 48 27" src="https://github.com/user-attachments/assets/05ae7c49-a542-4bf1-90a0-dabe5939beaa" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 15 54 05" src="https://github.com/user-attachments/assets/db234ab2-f7fb-4df4-bcc2-bd9b4220048c" />
 
 맵에 랜덤으로 스폰되어 있는 목숨 아이템을 수집하면 잔여 목숨이 증가한다.
 
-<img width="430" height="275" alt="스크린샷 2025-11-26 15 48 41" src="https://github.com/user-attachments/assets/4db09c4d-9046-4535-8f9b-4df7f96828b8" />
-<img width="430" height="275" alt="스크린샷 2025-11-26 15 50 52" src="https://github.com/user-attachments/assets/08b8596d-125f-44f7-abfd-85093ea7a20a" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 15 48 41" src="https://github.com/user-attachments/assets/4db09c4d-9046-4535-8f9b-4df7f96828b8" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 15 50 52" src="https://github.com/user-attachments/assets/08b8596d-125f-44f7-abfd-85093ea7a20a" />
 
 Shift 키를 사용해 드리프트를 할 수 있다.
 
-<img width="430" height="275" alt="스크린샷 2025-11-26 15 49 05" src="https://github.com/user-attachments/assets/1730d8c9-46c6-402d-9e23-718de570cb17" />
-<img width="430" height="275" alt="스크린샷 2025-11-26 15 51 08" src="https://github.com/user-attachments/assets/b472809e-9eaf-40de-8fc3-f174ec12d93d" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 15 49 05" src="https://github.com/user-attachments/assets/1730d8c9-46c6-402d-9e23-718de570cb17" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 15 51 08" src="https://github.com/user-attachments/assets/b472809e-9eaf-40de-8fc3-f174ec12d93d" />
 
 목숨이 모두 소진되면 게임이 종료된다.
 
@@ -83,8 +83,8 @@ Shift 키를 사용해 드리프트를 할 수 있다.
 
 시간이 흐르고 빠르게 도는 것이 Time Attack 모드의 목표다.
 
-<img width="430" height="275" alt="스크린샷 2025-11-26 15 52 12" src="https://github.com/user-attachments/assets/e8fdb406-3576-4a62-a3c4-e6a9bda6d185" />
-<img width="430" height="275" alt="스크린샷 2025-11-26 15 52 24" src="https://github.com/user-attachments/assets/10af6d74-bb45-4b0e-bea2-06886eb622ea" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 15 52 12" src="https://github.com/user-attachments/assets/e8fdb406-3576-4a62-a3c4-e6a9bda6d185" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 15 52 24" src="https://github.com/user-attachments/assets/10af6d74-bb45-4b0e-bea2-06886eb622ea" />
 
 맵 별로 정해진 Lap을 모두 돌면 시간이 멈춘다.
 
@@ -97,13 +97,13 @@ Shift 키를 사용해 드리프트를 할 수 있다.
 
 다양한 모양의 점프대를 활용해 여러가지 스턴트를 시험해 볼 수 있다.
 
-<img width="430" height="275" alt="스크린샷 2025-11-26 16 03 50" src="https://github.com/user-attachments/assets/6af04295-cb32-423f-9aef-e758797518a4" />
-<img width="430" height="275" alt="스크린샷 2025-11-26 16 03 59" src="https://github.com/user-attachments/assets/08cc3bd6-7cc3-4e31-a00a-f3f48c939070" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 16 03 50" src="https://github.com/user-attachments/assets/6af04295-cb32-423f-9aef-e758797518a4" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 16 03 59" src="https://github.com/user-attachments/assets/08cc3bd6-7cc3-4e31-a00a-f3f48c939070" />
 
 Spawn 버튼을 활용해 적을 소환하고
 
-<img width="430" height="275" alt="스크린샷 2025-11-26 16 04 15" src="https://github.com/user-attachments/assets/632c56e5-7283-4d67-ac72-0c1142502995" />
-<img width="430" height="275" alt="스크린샷 2025-11-26 16 04 31" src="https://github.com/user-attachments/assets/73a882c7-4895-4e9d-9b50-36ef995930f6" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 16 04 15" src="https://github.com/user-attachments/assets/632c56e5-7283-4d67-ac72-0c1142502995" />
+<img width="400" height="256" alt="스크린샷 2025-11-26 16 04 31" src="https://github.com/user-attachments/assets/73a882c7-4895-4e9d-9b50-36ef995930f6" />
 
 Despawn 버튼을 활용해 적을 삭제한다.
 
