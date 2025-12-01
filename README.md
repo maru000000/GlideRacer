@@ -50,9 +50,9 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 
 시간이 지날수록 phase가 늘어나고 그에 맞게 추격하는 경찰차의 수가 증가한다.
 
-<img width="280" height="179" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/83e76807-b0c2-4022-a064-e7b2e7942a4d" />
-<img width="280" height="179" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" />
-<img width="280" height="179" alt="스크린샷 2025-11-26 15 48 18" src="https://github.com/user-attachments/assets/4b125c70-bf7a-4081-8349-710ee361af4a" />
+<img width="260" height="166" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/83e76807-b0c2-4022-a064-e7b2e7942a4d" />
+<img width="260" height="166" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" />
+<img width="260" height="166" alt="스크린샷 2025-11-26 15 48 18" src="https://github.com/user-attachments/assets/4b125c70-bf7a-4081-8349-710ee361af4a" />
 <br />
 <img width="280" height="179" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/fa83e321-82d2-4145-9ad0-a618e309be3c" />
 <img width="280" height="179" alt="스크린샷 2025-11-26 15 49 47" src="https://github.com/user-attachments/assets/7dd0312b-80ea-428e-85b0-9e85dc96b1dd" />
