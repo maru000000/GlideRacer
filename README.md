@@ -54,9 +54,9 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 <img width="260" height="166" alt="스크린샷 2025-11-26 15 47 55" src="https://github.com/user-attachments/assets/04e383d4-2ef0-434c-91f1-2896ab325e24" />
 <img width="260" height="166" alt="스크린샷 2025-11-26 15 48 18" src="https://github.com/user-attachments/assets/4b125c70-bf7a-4081-8349-710ee361af4a" />
 <br />
-<img width="280" height="179" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/fa83e321-82d2-4145-9ad0-a618e309be3c" />
-<img width="280" height="179" alt="스크린샷 2025-11-26 15 49 47" src="https://github.com/user-attachments/assets/7dd0312b-80ea-428e-85b0-9e85dc96b1dd" />
-<img width="280" height="179" alt="스크린샷 2025-11-26 15 50 23" src="https://github.com/user-attachments/assets/db3f2ae5-5bca-48cc-a126-14d9c563729b" />
+<img width="260" height="166" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/fa83e321-82d2-4145-9ad0-a618e309be3c" />
+<img width="260" height="166" alt="스크린샷 2025-11-26 15 49 47" src="https://github.com/user-attachments/assets/7dd0312b-80ea-428e-85b0-9e85dc96b1dd" />
+<img width="260" height="166" alt="스크린샷 2025-11-26 15 50 23" src="https://github.com/user-attachments/assets/db3f2ae5-5bca-48cc-a126-14d9c563729b" />
 
 플레이어의 목숨에 따라 다른 효과가 나타난다.
 
@@ -107,9 +107,9 @@ Spawn 버튼을 활용해 적을 소환하고
 
 Despawn 버튼을 활용해 적을 삭제한다.
 
-<img width="280" height="179" alt="스크린샷 2025-11-26 16 05 02" src="https://github.com/user-attachments/assets/750c9637-5b3f-44bb-babd-c8a9263c9de6" />
-<img width="280" height="179" alt="스크린샷 2025-11-26 16 05 12" src="https://github.com/user-attachments/assets/b1261667-94a9-4f50-b9ca-0b5a96153890" />
-<img width="280" height="179" alt="스크린샷 2025-11-26 16 05 28" src="https://github.com/user-attachments/assets/4ecd993c-2a76-429a-9848-097d6800f672" />
+<img width="260" height="166" alt="스크린샷 2025-11-26 16 05 02" src="https://github.com/user-attachments/assets/750c9637-5b3f-44bb-babd-c8a9263c9de6" />
+<img width="260" height="166" alt="스크린샷 2025-11-26 16 05 12" src="https://github.com/user-attachments/assets/b1261667-94a9-4f50-b9ca-0b5a96153890" />
+<img width="260" height="166" alt="스크린샷 2025-11-26 16 05 28" src="https://github.com/user-attachments/assets/4ecd993c-2a76-429a-9848-097d6800f672" />
 
 Chasing을 연습할 수 있다.
 
