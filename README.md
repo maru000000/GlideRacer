@@ -12,6 +12,13 @@
 
 상황에 따른 배경음악을 추가해 박진감이 넘치는 분위기를 조성했다.
 
+### 스토어
+itch:
+https://maru0304.itch.io/glideracer
+
+stove:
+https://store.onstove.com/ko/games/103156
+
 ### 시연 영상 링크
 https://youtu.be/lpMD4BoxaoY
 
