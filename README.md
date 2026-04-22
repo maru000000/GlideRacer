@@ -47,8 +47,10 @@ Chasing Game, Time Attack, Training, Setting, Quit 중에 선택하여 클릭하
 차량을 변경할 수 있다.
 
 ### Chasing
+<p align="center">
 <img width="400" height="256" alt="스크린샷 2025-11-26 15 47 34" src="https://github.com/user-attachments/assets/a39237d4-5123-45e4-b653-3abadbd01ccf" />
 <img width="400" height="256" alt="스크린샷 2025-11-26 15 49 33" src="https://github.com/user-attachments/assets/4bfcf82c-f4a4-4aac-8835-bd768be837cf" />
+</p>
 
 
 경찰차를 피해 오래도록 살아남는 것이 Chasing 모드의 목표다.
